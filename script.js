@@ -1,5 +1,5 @@
-let submitBTN = document.getElementById("submit-btn");
-let tasksList = document.getElementById("my-tasks-ul");
+const submitBTN = document.getElementById("submit-btn");
+const tasksList = document.getElementById("my-tasks-ul");
 
 
 // ------------------addTask----------------------------
@@ -22,4 +22,7 @@ function addTask() {
         <input type="checkbox" name="done">
     </div>
     </li>`;
+
+    // task.value = "";
+    // due.value = "";
 }
